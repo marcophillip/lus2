@@ -1,0 +1,11 @@
+defaults:
+    - models: efficientnetB0
+    - _self_
+params:
+    lr: 1e-5
+    epochs: 50
+    batch_size: 64
+    
+paths:
+    logs: models/logs
+    weights: models/weights
